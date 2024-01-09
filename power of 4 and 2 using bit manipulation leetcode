@@ -1,0 +1,29 @@
+//power of 2
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        
+       if (n == 0|| n == INT_MIN) {
+            return false;
+        }
+        
+        return (n & (n - 1)) == 0;
+        
+
+        
+    }
+};
+
+//power of 4
+class Solution {
+public:
+    bool isPowerOfFour(int n) {
+        if(n==0||n==INT_MIN){
+            return false;
+
+        }
+        return(n&(n-1))==0 && (n%3)==1;
+
+        
+    }
+};
