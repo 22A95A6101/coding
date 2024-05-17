@@ -1,0 +1,12 @@
+a="iam a good girl"
+print(a.lower())
+print(a.upper())
+print(a.endswith("l"))
+print(a.startswith("a"))
+print(a.lower())
+print(a.replace("good","verygood"))
+print(a.index("o"))
+print(a.find("good"))
+print(a.strip())
+print(a.count("i"))
+print(a.split())
